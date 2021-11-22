@@ -15,7 +15,7 @@ int countLowerCase(string s) {
     int res = 0;
     for (char c : s) {
         if (islower (c))
-        ++res
+        ++res;
     }
     return res;
 }
